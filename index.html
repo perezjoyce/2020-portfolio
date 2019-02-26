@@ -8,6 +8,8 @@
   <!-- CSS  -->
   <!--<link href="https://fonts.googleapis.com/css?family=Finger+Paint" rel="stylesheet">-->
   <!--<link href="https://fonts.googleapis.com/css?family=Nunito|Roboto+Condensed:700" rel="stylesheet">-->
+  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Actor|Nobile:700|Righteous" rel="stylesheet">
   <!-- fontawesome -->
   <link rel="shortcut icon" href="assets/images/joyceperez_logo3.png">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -16,58 +18,63 @@
   <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 
-  <nav class="transparent" role="navigation">
-    <div class="nav-wrapper container">
-      <div class="row">
-        <a id="logo-container" href="#" class="brand-logo purple-text text-darken-1 col s6">
-            <div class="row">
-              <div class="col l1 m8 p-0">
-                <img src="assets/images/joyceperez_logo2.png" width="45" alt="logo">
-              </div>
-              <div class="col l11 m4">
-                <h5 class="p-0 purple-text text-darken-1 lighter">Joyce Perez</h5>
-              </div>
-            </div>
-        </a>
+<nav class="transparent mt-3" role="navigation">
+  <div class="nav-wrapper container">
+    <a id="logo-container" href="#!" class="brand-logo">
+      <img src="assets/images/joyceperez_nav_logo_lg2.png" width="180" alt="logo" class="sho">
+    </a>
 
-        <ul class="right col s6">
-          <li class="right-align" style="float:right;">
-            <a href="#resume" class="waves-effect waves-light button btn modal-trigger white-text purple darken-1"><i class="large material-icons right">attachment</i>RESUME</a>
-            <!--<a href="#resume" class="waves-effect waves-light button btn-large btn-flat modal-trigger white purple-text text-darken-1" style="border:2px solid #8e24aa;border-radius:290746px;">RESUME</a>-->
-          </li>
-        </ul>
-      </div>
-    </div>
+    <ul class="right hide-on-small-only show-on-medium-and-up p-0">
+      <a href="#resume2" class="waves-effect waves-light button btn modal-trigger white-text gradient lighter"><i class="large material-icons right">attachment</i>RESUME</a>
+    </ul>
+  </div>
 </nav>
 
   <div id="index-banner" class="mt-5">
     <div class="section no-pad-bot">
       <div class="container">
-        <h2 class="header center black-text text-lighten-2">Full Stack Web Developer</h2>
+        <h2 class="header center black-text text-lighten-2 font-weight-700 grey-text text-darken-3">Full Stack Web Developer</h2>
         <div class="row center">
-          <h5 class="header col s12 lighter">I code clean, responsive and thoughtful websites.</h5>
+          <h5 class="header col s12 lighter grey-text text-darken-3">I code clean, responsive and thoughtful websites.</h5>
         </div>
         <div class="row center">
-          <img src="assets/images/avatar.png" alt="avatar" width="250">
+          <img src="assets/images/avatar.png" alt="avatar" id="avatar">
         </div>
         <br><br>
-
       </div>
     </div>
-    <!--<div class="parallax red"><img src="assets/images/background1.jpg" alt="Unsplashed background img 1"></div>-->
   </div>
 
-  <div class="section mt-2 purple darken-3 white-text">
+  <!--<div class="container">-->
+    <!--<div class="row">-->
+      <!--<div class="col l1 p-0" style="margin-right:75px;">-->
+        <!--<img src="assets/images/joyceperez_logo2.png" width="120" alt="logo">-->
+      <!--</div>-->
+      <!--<div class="col l9 p-0 m4">-->
+        <!--<h1 class="p-0 purple-text text-darken-1 lighter">Joyce Perez</h1>-->
+      <!--</div>-->
+    <!--</div>-->
+  <!--</div>-->
+  <div class="container show-on-small hide-on-med-and-up">
+    <div class="row">
+      <div class="col s12">
+          <ul class="center p-0">
+            <a id="btn-resume" class="waves-effect waves-light btn-floating btn-large modal-trigger orange darken-1" href="#resume2"><i class="large material-icons right">attachment</i></a>
+          </ul>
+      </div>
+    </div>
+  </div>
+  <div class="section mt-3 gradient white-text">
     <div class="container mt-5 center-align" style="margin-bottom:15em;">
       <div class="row">
         <div class="col s12">
-          <h5>Hi! I'm Joyce. Nice to meet you.</h5>
+          <h4 class="font-weight-700">Hi! I'm Joyce. Nice to meet you.</h4>
         </div>
       </div>
-      <div class="row">
+      <div class="row mt-4">
         <div class="col s1"></div>
         <div class="col s10">
-          <h6 class="light" style="line-height: 1.8;">I'm a web developer with both frontend and backend skills. In my previous career, I was an education consultant who developed curricula to improve learning outcomes. My goal is to combine my skills sets in both fields -- web development & education -- to build web applications that matter.
+          <h6 class="lighter" style="line-height: 1.8;">I'm a web developer with both frontend and backend skills. In my previous career, I was an education consultant who developed curricula to improve learning outcomes. My goal is to eventually combine my skills sets in both fields &#8212; web development & education &#8212; to build web applications that matter.
           </h6>
         </div>
         <div class="col s1"></div>
@@ -79,58 +86,53 @@
   <div class="container mt-2 mb-5 white z-depth-1" style="margin-top:-10em;">
     <div class="section">
       <!--   Icon Section   -->
-      <div class="row  center-align">
-        <div class="col s12 m4" style="border-right:1px solid #E6ECF8;">
-          <div class="icon-block">
-            <h2 class="red-text text-lighten-1"><i class="material-icons">create</i></h2>
-            <h5>Frontend</h5>
-            <p class="light">I use simple content structures and clean design patterns.</p>
-            <p class="mt-4 red-text text-lighten-1">Tools:</p>
-            <ul class="light">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JavaScript</li>
-              <li>jQuery</li>
-              <li>Bootstrap</li>
-              <li>Materialize</li>
+      <div class="row  center-align grey-text text-darken-2">
+        <div class="col s12 m4">
+          <div class="icon-block responsive-border">
+            <h2><i class="material-icons text-gradient">create</i></h2>
+            <h5 class="font-weight-700">Frontend</h5>
+            <h6 class="light mt-2" style="line-height:1.3;">I use simple content structures and clean design patterns.</h6>
+            <ul class="mt-2">
+              <li><h6 class="lighter">HTML</h6></li>
+              <li><h6 class="lighter">CSS</h6></li>
+              <li><h6 class="lighter">JavaScript</h6></li>
+              <li><h6 class="lighter">jQuery</h6></li>
+              <li><h6 class="lighter">Bootstrap</h6></li>
+              <li><h6 class="lighter">Materialize</h6></li>
+              <li><h6 class="lighter">Chrome Dev Tools</h6></li>
             </ul>
           </div>
         </div>
 
-        <div class="col s12 m4" style="border-right: 1px solid #E6ECF8;">
-          <div class="icon-block">
-            <h2 class="red-text text-lighten-1"><i class="material-icons">code</i></h2>
-            <h5>Backend</h5>
-            <p class="light">I write efficient codes to develop functional web applications.</p>
-            <p class="mt-4 red-text text-lighten-1">Tools:</p>
-            <ul class="light">
-              <li>PHP</li>
-              <li>Laravel</li>
-              <li>MySql (PHPMyAdmin & Sequel Pro)</li>
-              <li>Heroku</li>
-              <li>Chrome Dev Tools</li>
+        <div class="col s12 m4">
+          <div class="icon-block responsive-border">
+            <h2><i class="material-icons text-gradient">code</i></h2>
+            <h5 class="font-weight-700">Backend</h5>
+            <h6 class="light mt-2" style="line-height:1.3;">I write efficient codes to develop functional web applications.</h6>
+            <ul class="mt-2">
+              <li><h6 class="lighter">PHP</h6></li>
+              <li><h6 class="lighter">Laravel</h6></li>
+              <li><h6 class="lighter">PHPMyAdmin</h6></li>
+              <li><h6 class="lighter">Sequel Pro</h6></li>
+              <li><h6 class="lighter">Heroku</h6></li>
             </ul>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="red-text text-lighten-1"><i class="material-icons">settings</i></h2>
-            <h5>Others</h5>
-            <p class="red-text text-lighten-1">Operating Systems:</p>
-            <ul class="light">
-              <li>Ubutu, Mint, OSX</li>
-            </ul>
-
-            <p class="mt-3 red-text text-lighten-1">Text Editors:</p>
-            <ul class="light">
-              <li>Sublime Text, Visual Studio Code, PHPStorm</li>
-            </ul>
-
-
-            <p class="mt-3 red-text text-lighten-1">Versioning:</p>
-            <ul class="light">
-              <li>Github, Gitlab</li>
+            <h2><i class="material-icons text-gradient">settings</i></h2>
+            <h5 class="font-weight-700">Others</h5>
+            <h6 class="light mt-2" style="line-height:1.3;">I also us the following tools:</h6>
+            <ul class="mt-2">
+              <li><h6 class="lighter">Ubuntu</h6></li>
+              <li><h6 class="lighter">Mint</h6></li>
+              <li><h6 class="lighter">OSX</h6></li>
+              <li><h6 class="lighter">Sublime Text</h6></li>
+              <li><h6 class="lighter">Visual Studio Code</h6></li>
+              <li><h6 class="lighter">PHPStorm</h6></li>
+              <li><h6 class="lighter">Github</h6></li>
+              <li><h6 class="lighter">Gitlab</h6></li>
             </ul>
           </div>
         </div>
@@ -144,79 +146,76 @@
     <div class="container">
       <div class="row">
         <div class="col s12 center relative">
-          <h4>My Recent Projects</h4>
-          <h6 class="light mt-2" style="line-height: 1.8;">Below are the capstone projects that I created during my 6-month intensive training at Tuitt Philippines.</h6>
+          <h4 class="font-weight-700 grey-text text-darken-3">My Recent Projects</h4>
+          <h6 class="light mt-4 grey-text text-darken-3" style="line-height: 1.8;">Below are some of my recent work.</h6>
         </div>
       </div>
     </div>
   </div>
   <div class="container" style="margin-bottom:15em;">
     <div class="row">
-      <div class="col s12 m12 l6 mt-3">
+      <!--SONORE-->
+      <div class="col s12 m12 l6 mt-lg-3 mt-md-1 mt-sm-1">
         <div class="relative">
-          <a href="https://perezjoyce.github.io/sonore/index.html" target='_blank'>
+          <a href="https://perezjoyce.github.io/sonore/index.html" target='_blank' class="white-text">
             <img src="assets/images/sonore.png" alt="sonore" width="100%">
-          </a>
-          <div class="overlay white-text">
-            <div class="center-align" style="margin-top:10em;">
-              <h6 class="light">Sonore is a static website for a fictitious music school.</h6>
-              <div class="icons text-center mt-5">
-                <i class="fab fa-html5 responsive-icon-size mr-p2"></i>
-                <i class="fab fa-css3-alt responsive-icon-size mr-p2"></i>
-                <i class="fab fa-js responsive-icon-size"></i>
+            <div class="overlay white-text">
+              <div class="center-align mt-lg-3 mt-md-5 mt-sm-1 p-lg-10 p-md-10">
+                <h6 class="light">Sonore is a static website for a fictitious music school.</h6>
+                <!--<div class="icons text-center mt-2">-->
+                  <!--<i class="fab fa-html5 responsive-icon-size mr-p2"></i>-->
+                  <!--<i class="fab fa-css3-alt responsive-icon-size mr-p2"></i>-->
+                  <!--<i class="fab fa-js responsive-icon-size"></i>-->
+                <!--</div>-->
+                <a href="https://perezjoyce.github.io/sonore/index.html" target='_blank' class="btn btn-flat white-text gradient mt-lg-2 mt-md-3 mt-sm-1" style="opacity:1;"><i class="large material-icons right">chevron_right</i>visit website</a>
               </div>
-              <a href="https://perezjoyce.github.io/sonore/index.html" target='_blank' class="btn orange mt-5" style="background-color:orange;opacity:1;"><i class="large material-icons right">chevron_right</i>Visit Website</a>
             </div>
-          </div>
+          </a>
         </div>
       </div>
-
-      <div class="col s12 m12 l6 mt-3">
+      <!--MAMAROO-->
+      <div class="col s12 m12 l6 mt-lg-3 mt-md-1 mt-sm-1">
         <div class="relative">
-          <a href="http://mamaroo.herokuapp.com/app/views/" target="_blank">
+          <a href="http://mamaroo.herokuapp.com/app/views/" target="_blank" class="white-text">
             <img src="assets/images/mamaroo.png" alt="mamaroo" width="100%">
-          </a>
-          <div class="overlay white-text">
-            <div class="center-align" style="margin-top:10em;">
-              <h6 class="light">Mamaroo is a multi-vendor, e-commerce website written in procedural PHP.</h6>
-              <div class="icons text-center mt-5">
-                <i class="fab fa-html5 responsive-icon-size mr-p2"></i>
-                <i class="fab fa-css3-alt responsive-icon-size mr-p2"></i>
-                <i class="fab fa-js responsive-icon-size mr-p2"></i>
-                <i class="fab fa-php responsive-icon-size"></i>
+            <div class="overlay white-text">
+              <div class="center-align mt-lg-3 mt-md-5 mt-sm-1 p-lg-10 p-md-10">
+                <h6 class="light">Mamaroo is a multi-vendor, e-commerce website written in procedural PHP.</h6>
+                <!--<div class="icons text-center mt-5">-->
+                  <!--<i class="fab fa-html5 responsive-icon-size mr-p2"></i>-->
+                  <!--<i class="fab fa-css3-alt responsive-icon-size mr-p2"></i>-->
+                  <!--<i class="fab fa-js responsive-icon-size mr-p2"></i>-->
+                  <!--<i class="fab fa-php responsive-icon-size mr-p2"></i>-->
+                  <!--<i class="fab fa-laravel responsive-icon-size"></i>-->
+                <!--</div>-->
+                <a href="http://mamaroo.herokuapp.com/app/views/" target='_blank' class="btn btn-flat white-text gradient mt-lg-2 mt-md-3 mt-sm-1" style="opacity:1;"><i class="large material-icons right">chevron_right</i>Visit Website</a>
               </div>
-              <a href="http://mamaroo.herokuapp.com/app/views/" target='_blank' class="btn orange mt-5" style="background-color:orange;opacity:1;"><i class="large material-icons right">chevron_right</i>Visit Website</a>
             </div>
-          </div>
+          </a>
         </div>
       </div>
-
-      <div class="col s12 m12 l6 mt-3">
+      <!--BLENDIO-->
+      <div class="col s12 m12 l6 mt-lg-3 mt-md-1 mt-sm-1">
         <div class="relative">
-          <a href="https://blendioph.herokuapp.com/" target="_blank">
-            <img src="assets/images/blendio.png" alt="blendio" width="100%">
-          </a>
-          <div class="container">
-            <div class="row">
-              <div class="col s12">
-                <div class="overlay white-text">
-                  <div class="center-align" style="margin-top:10em;">
-                    <h6 class="light">Blend.io is dyanmic, online learning tool coded with Laravel.</h6>
-                    <div class="icons text-center mt-5">
-                      <i class="fab fa-html5 responsive-icon-size mr-p2"></i>
-                      <i class="fab fa-css3-alt responsive-icon-size mr-p2"></i>
-                      <i class="fab fa-js responsive-icon-size mr-p2"></i>
-                      <i class="fab fa-php responsive-icon-size mr-p2"></i>
-                      <i class="fab fa-laravel responsive-icon-size"></i>
-                    </div>
-                    <a href="https://blendioph.herokuapp.com/" target='_blank' class="btn orange mt-5" style="background-color:orange;opacity:1;"><i class="large material-icons right">chevron_right</i>Visit Website</a>
-                  </div>
+            <a href="https://blendioph.herokuapp.com/" target="_blank" class="white-text">
+              <img src="assets/images/blendio.png" alt="blendio" width="100%">
+              <div class="overlay white-text">
+                <div class="center-align mt-lg-3 mt-md-5 mt-sm-1 p-lg-10 p-md-10">
+                  <h6 class="light">Blend.io is dyanmic, online learning tool coded with Laravel.</h6>
+                  <!--<div class="icons text-center mt-5">-->
+                    <!--<i class="fab fa-html5 responsive-icon-size mr-p2"></i>-->
+                    <!--<i class="fab fa-css3-alt responsive-icon-size mr-p2"></i>-->
+                    <!--<i class="fab fa-js responsive-icon-size mr-p2"></i>-->
+                    <!--<i class="fab fa-php responsive-icon-size mr-p2"></i>-->
+                    <!--<i class="fab fa-laravel responsive-icon-size"></i>-->
+                  <!--</div>-->
+                  <a href="https://blendioph.herokuapp.com/" target='_blank' class="btn btn-flat white-text gradient mt-lg-2 mt-md-3 mt-sm-1" style="opacity:1;"><i class="large material-icons right">chevron_right</i>Visit Website</a>
                 </div>
               </div>
-            </div>
-          </div>
+            </a>
         </div>
       </div>
+
     </div>
 
   </div>
@@ -225,80 +224,52 @@
 
 
 
-  <footer class="page-footer purple darken-3 center-align">
-    <div class="container mt-5 red z-depth-1 pb-2 pt-2" style="margin-top:-7em;">
+  <footer class="page-footer gradient center-align">
+    <div class="container mt-5 complementary z-depth-1 pb-2 pt-2" style="margin-top:-7em;">
       <div class="row">
         <div class="col l3 s12"><h4 class="mt-1">Get in touch</h4></div>
-        <div class="col l6 s12"><h6 class="lighter mt-2" style="line-height: 1.8;">Interested in working together? Get in touch with me through email now.</h6></div>
+        <div class="col l6 s12"><h6 class="lighter mt-1 responsive-padding" style="line-height: 1.8;">Interested in working together? <br> Drop me a line. I'd love to hear about your project.</h6></div>
         <div class="col l3 s12">
-          <a href="mailto:japerez.ph@gmail.com" target="_top" class="btn-large mt-2 waves-effect waves-light orange pulse modal-trigger"><i class="material-icons right">email</i>Email</a>
+          <a href="mailto:japerez.ph@gmail.com" target="_top" class="btn-large mt-2 waves-effect waves-light complementary modal-trigger lighter orange-border"><i class="material-icons right">email</i>Email</a>
         </div>
 
       </div>
     </div>
 
-    <div class="footer-copyright purple darken-3 center-align">
+    <div class="footer-copyright gradient center-align">
       <div class="container mt-5">
         <div class="row">
           <div class="col s12">
-            <h4 class="white-text">JP</h4>
-            <h6 class="lighter mt-2 purple-text text-lighten-4" style="line-height: 1.8;">
+            <h4 class="logo-font">JP</h4>
+            <h6 class="lighter mt-2" style="line-height: 1.8;">
               Learning, growing my skills one code at a time.
             </h6>
           </div>
           <div class="col s12 mt-1">
-            <div class="show-on-medium-and-up hide-on-small-only">
-              <a href="https://github.com/perezjoyce" target="_blank">
+            <a href="https://github.com/perezjoyce" target="_blank">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x icon-background purple-text text-lighten-3"></i>
+                <i class="fab fa-github-alt fa-stack-1x text-gradient"></i>
+              </span>
+            </a>
+            <a href="https://www.linkedin.com/in/perezjoyce/" target="_blank">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x icon-background purple-text text-lighten-3"></i>
+                <i class="fab fa-linkedin-in fa-stack-1x text-gradient"></i>
+              </span>
+            </a>
+            <a href="https://www.facebook.com/japerez.ph" target="_blank">
+              <span class="fa-stack fa-2x">
+                <i class="fa fa-circle fa-stack-2x icon-background purple-text text-lighten-3"></i>
+                <i class="fab fa-facebook-f fa-stack-1x text-gradient"></i>
+              </span>
+            </a>
+            <a href="https://codepen.io/joyceperez/" target="_blank">
                 <span class="fa-stack fa-2x">
-                  <i class="fa fa-circle fa-stack-2x icon-background purple-text text-lighten-4"></i>
-                  <i class="fab fa-github-alt fa-stack-1x purple-text"></i>
+                  <i class="fa fa-circle fa-stack-2x icon-background purple-text text-lighten-3"></i>
+                  <i class="fab fa-codepen fa-stack-1x text-gradient"></i>
                 </span>
               </a>
-              <a href="https://www.linkedin.com/in/perezjoyce/" target="_blank">
-                <span class="fa-stack fa-2x">
-                  <i class="fa fa-circle fa-stack-2x icon-background purple-text text-lighten-4"></i>
-                  <i class="fab fa-linkedin-in fa-stack-1x purple-text"></i>
-                </span>
-              </a>
-              <a href="https://www.facebook.com/japerez.ph" target="_blank">
-                <span class="fa-stack fa-2x">
-                  <i class="fa fa-circle fa-stack-2x icon-background purple-text text-lighten-4"></i>
-                  <i class="fab fa-facebook-f fa-stack-1x purple-text"></i>
-                </span>
-              </a>
-              <a href="https://codepen.io/joyceperez/" target="_blank">
-                <span class="fa-stack fa-2x">
-                  <i class="fa fa-circle fa-stack-2x icon-background purple-text text-lighten-4"></i>
-                  <i class="fab fa-codepen fa-stack-1x purple-text"></i>
-                </span>
-              </a>
-            </div>
-            <div class="show-on-small hide-on-med-and-up">
-              <a href="https://github.com/perezjoyce" target="_blank">
-                <span class="fa-stack">
-                  <i class="fa fa-circle fa-stack-2x icon-background purple-text text-lighten-4"></i>
-                  <i class="fab fa-github-alt fa-stack-1x purple-text"></i>
-                </span>
-              </a>
-              <a href="https://www.linkedin.com/in/perezjoyce/" target="_blank">
-                <span class="fa-stack">
-                  <i class="fa fa-circle fa-stack-2x icon-background purple-text text-lighten-4"></i>
-                  <i class="fab fa-linkedin-in fa-stack-1x purple-text"></i>
-                </span>
-              </a>
-              <a href="https://www.facebook.com/japerez.ph" target="_blank">
-                <span class="fa-stack">
-                  <i class="fa fa-circle fa-stack-2x icon-background purple-text text-lighten-4"></i>
-                  <i class="fab fa-facebook-f fa-stack-1x purple-text"></i>
-                </span>
-              </a>
-              <a href="https://codepen.io/joyceperez/" target="_blank">
-                <span class="fa-stack">
-                  <i class="fa fa-circle fa-stack-2x icon-background purple-text text-lighten-4"></i>
-                  <i class="fab fa-codepen fa-stack-1x purple-text"></i>
-                </span>
-              </a>
-            </div>
           </div>
         </div>
         <div class="row mt-5 mb-5">
@@ -310,7 +281,8 @@
     </div>
   </footer>
 
-  <!-- Modal Structure -->
+
+  <!--MODALS-->
   <div id="resume" class="modal">
     <div class="modal-content">
       <embed src="assets/images/joyceperez_resume.pdf" frameborder="0" width="100%" height="560" type="application/pdf">
@@ -318,11 +290,33 @@
     </div>
   </div>
 
+  <div id="resume2" class="modal">
+    <div class="modal-content">
+      <h5 class="purple-text text-darken-1 font-weight-700">View my resume?</h5>
+      <p class="mt-2 grey-text text-darken-2 light">You will be redirected to a different page so you can do so in full screen.</p>
+    </div>
+    <div class="modal-footer mb-1">
+      <a href="https://drive.google.com/file/d/1l19R5Gy5wrB8uEqE9iGDPpUHtC1QT8Qk/view?usp=sharing" target="_blank" class="modal-close waves-effect waves-green btn-flat purple-text text-darken-2 heavy">YES, Go Ahead</a>
+    </div>
+  </div>
 
-  <!--  Scripts-->
-  <script src="assets/js/jquery-3.3.1.min.js"></script>
+  <!--SCRIPTS-->
+  <script src="assets/js/script.js"></script>
   <script src="assets/js/materialize.js"></script>
   <script src="assets/js/init.js"></script>
+  <script>
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              document.getElementById("btn-resume").style.display = "block";
+          } else {
+              document.getElementById("btn-resume").style.display = "none";
+          }
+      }
+
+  </script>
 
   </body>
 </html>
