@@ -17,8 +17,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="306" column="181" lean-forward="false" selection-start-line="306" selection-start-column="181" selection-end-line="306" selection-end-column="181" />
+            <state relative-caret-position="141">
+              <caret line="306" column="97" lean-forward="false" selection-start-line="306" selection-start-column="97" selection-end-line="306" selection-end-column="97" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#2;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h6#0;n#div#1;n#div#1;n#div#0;n#div#2;n#html#0;n#!!top" expanded="true" />
@@ -42,8 +42,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="154" column="18" lean-forward="false" selection-start-line="154" selection-start-column="18" selection-end-line="154" selection-end-column="18" />
+            <state relative-caret-position="166">
+              <caret line="118" column="26" lean-forward="false" selection-start-line="118" selection-start-column="26" selection-end-line="118" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -87,12 +87,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>padding-top</find>
-      <find>grad</find>
-      <find>resume</find>
-      <find>complement</find>
-      <find>frontend</find>
-      <find>GREEN</find>
       <find>RED</find>
       <find>orange</find>
       <find>gradient</find>
@@ -116,7 +110,13 @@
       <find>style.css</find>
       <find>gradien</find>
       <find>avatar</find>
+      <find>view m</find>
+      <find>orange-bo</find>
+      <find>orange-border</find>
+      <find>btn-re</find>
+      <find>compen</find>
       <find>btn-resume</find>
+      <find>resume</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -239,12 +239,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550349326069</updated>
-      <workItem from="1550349327148" duration="63534000" />
+      <workItem from="1550349327148" duration="65176000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63534000" />
+    <option name="totallyTimeSpent" value="65176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -319,16 +319,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="154" column="18" lean-forward="false" selection-start-line="154" selection-start-column="18" selection-end-line="154" selection-end-column="18" />
+        <state relative-caret-position="166">
+          <caret line="118" column="26" lean-forward="false" selection-start-line="118" selection-start-column="26" selection-end-line="118" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="306" column="181" lean-forward="false" selection-start-line="306" selection-start-column="181" selection-end-line="306" selection-end-column="181" />
+        <state relative-caret-position="141">
+          <caret line="306" column="97" lean-forward="false" selection-start-line="306" selection-start-column="97" selection-end-line="306" selection-end-column="97" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#2;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h6#0;n#div#1;n#div#1;n#div#0;n#div#2;n#html#0;n#!!top" expanded="true" />
