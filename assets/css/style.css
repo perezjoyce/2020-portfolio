@@ -53,6 +53,15 @@ html {
   padding:10px;
 }
 
+.plr-lg-5 {
+  padding-left:5em;
+  padding-right:5em;
+}
+
+.lh-lg-p8 {
+  line-height: 1.8;
+}
+
 .p-0 {
   padding:0!important;
 }
@@ -97,12 +106,16 @@ html {
   padding-top: 1em;
 }
 
+.mt-lg-11 {
+  margin-top:11em;
+}
+
 .mt-lg-3 {
   margin-top:3em;
 }
 
-.mt-lg-2{
-  margin-top:2em;
+.mt-lg-2 {
+  margin-top: 2em;
 }
 
 
@@ -318,6 +331,10 @@ p {
     border-right: 1px solid #E6ECF8;
   }
 
+  .mt-md-6 {
+    margin-top:6em;
+  }
+
   .mt-md-5 {
     margin-top:5em;
   }
@@ -332,6 +349,11 @@ p {
 
   .p-md-10 {
     padding:15px!important;
+  }
+
+  .overlay {
+    padding-right: 5em;
+    padding-left: 5em;
   }
 
 }
@@ -380,6 +402,16 @@ p {
 
   .mt-sm-1 {
     margin-top:1em;
+  }
+
+  .overlay {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .lh-sm-p2 {
+    line-height: 1.2;
+    font-size:10px;
   }
 
 }
