@@ -454,3 +454,7 @@ footer.page-footer {
     font-size: 12px !important;
   }
 }
+
+.border {
+  border: 1px solid red;
+}
