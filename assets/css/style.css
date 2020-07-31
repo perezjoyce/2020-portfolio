@@ -1,85 +1,84 @@
-
 html {
-  font-size:16px;
+  font-size: 16px;
 }
 
 /*SPACING*/
 
 .mt-lg-11 {
-    margin-top:11em;
+  margin-top: 11em;
 }
 
 .mt-lg-3 {
-    margin-top:3em;
+  margin-top: 3em;
 }
 
 .mt-lg-2 {
-    margin-top: 2em;
+  margin-top: 2em;
 }
 
 .mt-n10 {
-    margin-top:-10em!important;
+  margin-top: -10em !important;
 }
 
-.mt-n7{
-    margin-top:-7em!important;
+.mt-n7 {
+  margin-top: -7em !important;
 }
 
 .mt-5 {
-  margin-top:5em;
+  margin-top: 5em;
 }
 
 .mt-4 {
-  margin-top:4em;
+  margin-top: 4em;
 }
 
 .mt-3 {
-  margin-top:3em;
+  margin-top: 3em;
 }
 
 .mt-2 {
-  margin-top:2em;
+  margin-top: 2em;
 }
 
 .mt-1 {
-  margin-top:1em;
+  margin-top: 1em;
 }
 
-.mb-15{
-   margin-bottom:15em;
+.mb-15 {
+  margin-bottom: 15em;
 }
 
 .mb-5 {
-  margin-bottom:5em;
+  margin-bottom: 5em;
 }
 
 .mb-4 {
-  margin-bottom:4em;
+  margin-bottom: 4em;
 }
 
 .mb-3 {
-  margin-bottom:3em;
+  margin-bottom: 3em;
 }
 
 .mb-2 {
-  margin-bottom:2em;
+  margin-bottom: 2em;
 }
 
 .mb-1 {
-  margin-bottom:1em;
+  margin-bottom: 1em;
 }
 
 .mr-p2 {
-  margin-right:.2em;
+  margin-right: 0.2em;
 }
 
 .p-lg-10 {
-  padding:10px;
+  padding: 10px;
 }
 
 .plr-lg-5 {
-  padding-left:5em;
-  padding-right:5em;
+  padding-left: 5em;
+  padding-right: 5em;
 }
 
 .lh-lg-p8 {
@@ -87,27 +86,27 @@ html {
 }
 
 .p-0 {
-  padding:0!important;
+  padding: 0 !important;
 }
 
 .pb-5 {
-  padding-bottom:5em;
+  padding-bottom: 5em;
 }
 
 .pb-4 {
-  padding-bottom:4em;
+  padding-bottom: 4em;
 }
 
 .pb-3 {
-  padding-bottom:3em;
+  padding-bottom: 3em;
 }
 
 .pb-2 {
-  padding-bottom:2em;
+  padding-bottom: 2em;
 }
 
 .pb-1 {
-  padding-bottom:1em;
+  padding-bottom: 1em;
 }
 
 .pt-5 {
@@ -130,54 +129,65 @@ html {
   padding-top: 1em;
 }
 
-
-
-
 /*COLORS*/
 .gradient {
-  background: #7F00FF;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #7f00ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #e100ff,
+    #7f00ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #e100ff,
+    #7f00ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .orange-border {
- border:1px solid #ff7f00;
+  border: 1px solid #ff7f00;
 }
 
 .text-gradient {
-  background: #7F00FF;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #7f00ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #e100ff,
+    #7f00ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #e100ff,
+    #7f00ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .lighter {
-  font-weight:200!important;
+  font-weight: 200 !important;
 }
 
-
-.complementary{
-  background-color:#2E294E!important;
+.complementary {
+  background-color: #2e294e !important;
 }
 
 .opacity-1 {
-    opacity: 1;
+  opacity: 1;
 }
 
 /*POSITIONS*/
 .relative {
-    position:relative;
+  position: relative;
 }
 
 .lh-1p3 {
-    line-height:1.3;
+  line-height: 1.3;
 }
 
 .lh-1p8 {
-    line-height: 1.8;
+  line-height: 1.8;
 }
-
 
 /*WORK*/
 .overlay {
@@ -187,48 +197,47 @@ html {
   left: 0;
   right: 0;
   width: 100%;
-  opacity:0;
-  height:99.2%;
-  transition: .5s ease;
-  background-color:#2E294E;
+  opacity: 0;
+  height: 99.2%;
+  transition: 0.5s ease;
+  background-color: #2e294e;
 }
 
 .relative:hover .overlay {
-  opacity:1;
+  opacity: 1;
 }
 
 /*NAV*/
 nav ul a,
 nav .brand-logo {
-    color: #444;
+  color: #444;
 }
 
 nav {
-    box-shadow:none!important;
-    -webkit-box-shadow:none!important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
 }
 
 p {
-    line-height: 2rem;
+  line-height: 2rem;
 }
 
 .font-weight-700 {
-    font-weight:700;
+  font-weight: 700;
 }
 
-
 .sidenav-trigger {
-    color: #26a69a;
+  color: #26a69a;
 }
 
 /*ABOUT*/
 #avatar {
-    width:250px;
+  width: 250px;
 }
 
-.logo-font{
+.logo-font {
   font-family: 'Nobile', sans-serif;
-  font-weight:500;
+  font-weight: 500;
 }
 
 .text {
@@ -243,8 +252,8 @@ p {
   text-align: center;
 }
 
-#title span{
-  content:"rest"!important;
+#title span {
+  content: 'rest' !important;
 }
 
 /*SECTION CONTAINERS*/
@@ -253,7 +262,7 @@ p {
   min-height: 380px;
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255, 255, 255, 0.9);
 }
 .parallax-container .section {
   width: 100%;
@@ -261,66 +270,65 @@ p {
 
 /*RESUME*/
 #btn-resume {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    /*font-size: 18px;*/
-    border: none;
-    outline: none;
-    cursor: pointer;
-    /*padding: 15px;*/
-    /*border-radius: 4px;*/
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  /*font-size: 18px;*/
+  border: none;
+  outline: none;
+  cursor: pointer;
+  /*padding: 15px;*/
+  /*border-radius: 4px;*/
 }
 
 #resume .modal-content {
-  padding:0!important;
+  padding: 0 !important;
 }
 
 .modal .modal-overlay {
-  opacity:0.75!important;
+  opacity: 0.75 !important;
 }
 
 .modal:focus {
-  outline:none!important;
+  outline: none !important;
 }
 
 .modal {
-    width: 30%;
+  width: 30%;
 }
 
-.modal .modal-footer{
-    padding-right: 18px;
+.modal .modal-footer {
+  padding-right: 18px;
 }
 
 /*SKILL SET*/
-.responsive-icon-size{
-  font-size:5em;
+.responsive-icon-size {
+  font-size: 5em;
 }
 
-.responsive-border{
-  border-right: 1px solid #E6ECF8;
+.responsive-border {
+  border-right: 1px solid #e6ecf8;
 }
 
 .icon-block {
-    padding: 0 15px;
+  padding: 0 15px;
 }
 
 .icon-block .material-icons {
-    font-size: inherit;
+  font-size: inherit;
 }
 
 /*FOOTER*/
 footer.page-footer {
-    margin: 0;
+  margin: 0;
 }
 
 /*TABLET*/
-@media only screen and (max-width : 992px) {
-
+@media only screen and (max-width: 992px) {
   html {
-    font-size:.75rem;
+    font-size: 0.75rem;
   }
 
   nav .brand-logo {
@@ -338,64 +346,61 @@ footer.page-footer {
     top: 10%;
   }
 
-  .responsive-icon-size{
-    font-size:4em;
+  .responsive-icon-size {
+    font-size: 4em;
   }
 
   #avatar {
-    width:220px;
+    width: 220px;
   }
 
   .modal {
     width: 55%;
   }
 
-  .modal .modal-footer{
+  .modal .modal-footer {
     padding-right: 18px;
   }
 
   .responsive-padding {
-    padding-left:15px;
-    padding-right:15px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
-  .responsive-border{
-    border-right: 1px solid #E6ECF8;
+  .responsive-border {
+    border-right: 1px solid #e6ecf8;
   }
 
   .mt-md-6 {
-    margin-top:6em;
+    margin-top: 6em;
   }
 
   .mt-md-5 {
-    margin-top:5em;
+    margin-top: 5em;
   }
 
-  .mt-md-3{
-    margin-top:3em;
+  .mt-md-3 {
+    margin-top: 3em;
   }
 
-  .mt-md-1{
-    margin-top:1em;
+  .mt-md-1 {
+    margin-top: 1em;
   }
 
   .p-md-10 {
-    padding:15px!important;
+    padding: 15px !important;
   }
 
   .overlay {
     padding-right: 5em;
     padding-left: 5em;
   }
-
 }
 
-
 /*MOBILE*/
-@media only screen and (max-width : 600px) {
-
+@media only screen and (max-width: 600px) {
   html {
-        font-size:.7rem;
+    font-size: 0.7rem;
   }
 
   nav .brand-logo {
@@ -405,35 +410,34 @@ footer.page-footer {
     /*margin-top: 1em;*/
   }
 
-    #index-banner .section {
+  #index-banner .section {
     top: 0;
   }
 
-
   #avatar {
-    width:180px;
+    width: 180px;
   }
 
-  .modal .modal-footer{
-     padding-right: 15px;
+  .modal .modal-footer {
+    padding-right: 15px;
   }
 
   .modal {
-     width: 85%;
+    width: 85%;
   }
 
-  .responsive-icon-size{
-    font-size:2em;
+  .responsive-icon-size {
+    font-size: 2em;
   }
 
-  .responsive-border{
-    padding-bottom: 2em!important;
-    border-bottom: 1px solid #E6ECF8;
+  .responsive-border {
+    padding-bottom: 2em !important;
+    border-bottom: 1px solid #e6ecf8;
     border-right: none;
   }
 
   .mt-sm-1 {
-    margin-top:1em;
+    margin-top: 1em;
   }
 
   .overlay {
@@ -443,12 +447,10 @@ footer.page-footer {
 
   .lh-sm-p2 {
     line-height: 1.2;
-    font-size:10px;
+    font-size: 10px;
   }
 
-  .f-12{
-      font-size:12px!important;
+  .f-12 {
+    font-size: 12px !important;
   }
-
 }
-
