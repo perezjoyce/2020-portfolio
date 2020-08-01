@@ -158,7 +158,6 @@ body {
 }
 
 /*COLORS*/
-
 .bg-black {
   background-color: #141414;
 }
@@ -208,6 +207,19 @@ p {
 .lighter {
   font-weight: 200 !important;
 }
+
+/* BUTTONS */
+.hover:hover {
+  opacity: 0.6;
+}
+
+.btn:hover,
+.btn-large:hover,
+.btn-small:hover,
+.btn-floating:hover {
+  background-color: dimgray !important;
+}
+
 /*NAV*/
 nav {
   box-shadow: none !important;
@@ -220,11 +232,6 @@ nav [class*='mdi-'],
 nav i.material-icons {
   line-height: 38px !important;
 }
-
-/* #hero {
-  padding-top: 3rem;
-  height: 100vh;
-} */
 
 .section {
   height: 100vh;
@@ -487,25 +494,13 @@ nav i.material-icons {
 }
 
 /* MODAL */
-/* .modal .modal-overlay {
-  opacity: 0.75 !important;
-} */
-
 .modal:focus {
   outline: none !important;
-}
-
-#resume-modal .heading {
-  font-weight: 800;
-  margin: 1rem 0;
-  font-size: 1.6rem;
-  color: ghostwhite;
 }
 
 #resume-modal .subheading {
   font-size: 1.4rem;
   margin: 1rem 0;
-  color: ghostwhite;
 }
 
 #resume-modal a {
