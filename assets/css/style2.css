@@ -465,74 +465,57 @@ nav i.material-icons {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-size: cover;
-  font-size: 6.3rem;
   margin: 1.5rem 0;
 }
 
 #footer > .container {
   position: relative;
   top: 50%;
-  /* left: 50%;
-  transform: translate(-50%, -50%); */
+  transform: translate(0%, -50%);
 }
 
 /* BTN FLOATING */
-
-/*RESUME*/
 #btn-resume {
   display: none;
   position: fixed;
   bottom: 20px;
   right: 30px;
   z-index: 99;
-  /*font-size: 18px;*/
   border: none;
   outline: none;
   cursor: pointer;
-  /*padding: 15px;*/
-  /*border-radius: 4px;*/
 }
 
-#resume .modal-content {
-  padding: 0 !important;
-}
-
-.modal .modal-overlay {
+/* MODAL */
+/* .modal .modal-overlay {
   opacity: 0.75 !important;
-}
+} */
 
 .modal:focus {
   outline: none !important;
 }
 
-.modal {
-  width: 30%;
+#resume-modal .heading {
+  font-weight: 800;
+  margin: 1rem 0;
+  font-size: 1.6rem;
+  color: ghostwhite;
 }
 
-.modal .modal-footer {
-  padding-right: 18px;
+#resume-modal .subheading {
+  font-size: 1.4rem;
+  margin: 1rem 0;
+  color: ghostwhite;
 }
 
-/*SKILL SET*/
-.responsive-icon-size {
-  font-size: 5em;
+#resume-modal a {
+  margin: 1rem 0;
+  color: ghostwhite;
+  background-color: gray;
 }
 
-.responsive-border {
-  border-right: 1px solid #e6ecf8;
-}
-
-.icon-block {
-  padding: 0 15px;
-}
-
-.icon-block .material-icons {
-  font-size: inherit;
-}
-
-/*FOOTER*/
-footer.page-footer {
-  margin: 0;
+.modal.bottom-sheet {
+  overflow: hidden important!;
 }
 
 /* // Medium devices (tablets, 768px and up)  */
@@ -598,6 +581,35 @@ footer.page-footer {
     flex-basis: 70px;
     margin: 1.5rem;
   }
+
+  /* MODAL */
+  /* .modal {
+    width: 50%;
+  } */
+
+  #resume-modal .heading {
+    font-weight: 800;
+    margin: 1.5rem 0;
+    font-size: 2.2rem;
+    color: ghostwhite;
+  }
+
+  #resume-modal .subheading {
+    font-size: 1.6rem;
+    margin: 1rem 0;
+    color: ghostwhite;
+  }
+
+  #resume-modal a {
+    margin: 1rem 0;
+    /* color: #141414; */
+    color: ghostwhite;
+    background-color: gray;
+  }
+
+  .modal.bottom-sheet {
+    overflow: hidden;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -641,6 +653,10 @@ footer.page-footer {
     align-items: center;
     justify-content: center;
   }
+
+  /* .modal {
+    width: 30%;
+  } */
 }
 
 .border {
