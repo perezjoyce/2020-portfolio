@@ -275,6 +275,16 @@ nav i.material-icons {
   align-items: center;
 }
 
+.main-carousel div.carousel-cell:first-child {
+  background-color: #424242 !important;
+  color: ghostwhite;
+}
+
+.main-carousel div.carousel-cell p:first-of-type {
+  color: dimgray !important;
+  font-weight: 400;
+}
+
 .carousel-cell > .carousel-content h3.h1 {
   margin: 0;
 }
