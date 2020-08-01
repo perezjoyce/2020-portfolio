@@ -393,10 +393,14 @@ nav i.material-icons {
 }
 
 #work-container .project > div > small {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.5;
-  margin: 2rem 0;
+  margin: 1rem 0 0 4rem;
   display: block;
+}
+
+.project a.btn {
+  margin: 2rem 0 0 4rem !important;
 }
 
 #work-container {
@@ -425,8 +429,10 @@ nav i.material-icons {
 }
 
 .two .h1 {
+  font-size: 6rem;
   font-family: 'Dancing Script', cursive;
   font-weight: bolder;
+  margin: 0 0 0 4rem !important;
 }
 
 .three {
@@ -436,6 +442,7 @@ nav i.material-icons {
 .three .h1 {
   font-family: Pacifico, cursive;
   font-weight: 400 !important;
+  margin: 0 0 0 4rem !important;
 }
 
 .four {
