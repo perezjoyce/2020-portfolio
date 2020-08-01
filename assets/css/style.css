@@ -282,7 +282,7 @@ nav i.material-icons {
 
 .main-carousel div.carousel-cell p:first-of-type {
   color: dimgray !important;
-  font-weight: 400;
+  font-weight: 300 !important;
 }
 
 .carousel-cell > .carousel-content h3.h1 {
@@ -366,7 +366,8 @@ span.badge {
     margin: 1.5rem 0;
   }
 
-  .subheading {
+  .subheading,
+  #projects .subheading {
     font-size: 2rem;
     line-height: 1.5;
     margin: 2rem 0;
@@ -420,6 +421,11 @@ span.badge {
 
   .modal.bottom-sheet {
     overflow: hidden;
+  }
+
+  /* PROJECTS */
+  .main-carousel div.carousel-cell > .carousel-content p {
+    font-size: 1.4rem;
   }
 }
 
