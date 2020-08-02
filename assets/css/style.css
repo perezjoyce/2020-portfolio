@@ -129,24 +129,24 @@ nav i.material-icons {
 }
 
 .btn-resume > a {
-  margin-top: 4em;
-  text-align: left;
+  margin-top: 2em;
 }
 
 #hero {
-  animation: pulse 15s ease-in-out 5s infinite;
+  animation: pulse 10s ease-in-out 5s infinite;
 }
 
 @keyframes pulse {
   0% {
-    background-color: ghostwhite;
-  }
-  50% {
     background-color: #141414;
     color: #fff;
   }
-  100% {
+  50% {
     background-color: ghostwhite;
+  }
+  100% {
+    background-color: #141414;
+    color: #fff;
   }
 }
 
@@ -289,6 +289,11 @@ nav i.material-icons {
   margin: 0;
 }
 
+/* .main-carousel div.carousel-cell:nth-child(2) {
+  background: url('../images/sonore.png');
+  background-size: ;
+} */
+
 /* position dots up a bit */
 .flickity-page-dots {
   bottom: 30px;
@@ -353,6 +358,10 @@ span.badge {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .btn-resume > a {
+    margin-top: 0;
   }
 
   h1,

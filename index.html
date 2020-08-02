@@ -44,7 +44,7 @@
 
         <div class="col s12 m6" id="hero-image"></div>
 
-        <div class="col s12 btn-resume">
+        <div class="col s12 btn-resume left">
           <a href="#resume-modal"
             class="btn btn-large modal-trigger waves-effect waves-light white-text bg-black lighter mt-4">
             <i class="large material-icons right">attachment</i>
@@ -247,7 +247,11 @@
     var flkty = new Flickity(elem, {
       // options
       cellAlign: 'left',
-      contain: true
+      contain: true,
+      // wrapAround: true,
+      dragThreshold: 10,
+      freeScroll: true,
+      freeScrollFriction: 0.03
     });
 
     var flkty = new Flickity('.main-carousel', {
