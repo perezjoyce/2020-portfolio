@@ -243,9 +243,32 @@ nav i.material-icons {
   animation: float 6s ease-in infinite;
 }
 
-.stack-tools > div:nth-child(15) {
+.stack-tools > div:nth-child(16) {
   background: url('../images/laravel.png');
   animation: float 10s ease-in-out infinite;
+}
+
+/* TOOLTIPS */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: black;
+  font-size: 0.8rem;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  position: absolute;
+  top: -40px;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 
 @keyframes float {

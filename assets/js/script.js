@@ -13,4 +13,21 @@ document.addEventListener("DOMContentLoaded", function (event)
             document.getElementById("btn-resume").style.display = "none"
         }
     }
+
+    //initialize modal
+    var elems = document.querySelectorAll('.modal')
+    M.Modal.init(elems)
+
+
+    //carousel
+    var elem = document.querySelector('.main-carousel')
+    new Flickity(elem, {
+        // options
+        cellAlign: 'left',
+        contain: true,
+        // wrapAround: true,
+        dragThreshold: 10,
+        freeScroll: true,
+        freeScrollFriction: 0.03
+    })
 })

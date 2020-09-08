@@ -4,6 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, shrink-to-fit=no" />
+  <link rel="shortcut icon" href="assets/images/logo_2020.PNG">
 
   <!--FACEBOOK-->
   <meta property="og:image" content="https://perezjoyce.github.io/portfolio/assets/images/logo_2020.PNG">
@@ -17,13 +18,11 @@
   <title>Joyce Perez</title>
 
   <!-- CSS  -->
-  <script src="assets/js/jquery-3.3.1.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Actor|Nobile:700|Righteous" rel="stylesheet">
-  <link rel="shortcut icon" href="assets/images/logo_2020.PNG">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-  <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
@@ -67,21 +66,22 @@
         </div>
         <div class="col s12 l6">
           <div class="stack-tools">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div class="tooltip"><span class="tooltiptext">HTML</span></div>
+            <div class="tooltip"><span class="tooltiptext">CSS</span></div>
+            <div class="tooltip"><span class="tooltiptext">Sass</span></div>
+            <div class="tooltip"><span class="tooltiptext">JavaScript</span></div>
+            <div class="tooltip"><span class="tooltiptext">MongoDB</span></div>
+            <div class="tooltip"><span class="tooltiptext">MySQL</span></div>
+            <div class="tooltip"><span class="tooltiptext">Node.js</span></div>
+            <div class="tooltip"><span class="tooltiptext">Express.js</span></div>
+            <div class="tooltip"><span class="tooltiptext">React</span></div>
+            <div class="tooltip"><span class="tooltiptext">GraphQL</span></div>
+            <div class="tooltip"><span class="tooltiptext">Apollo GraphQL</span></div>
+            <div class="tooltip"><span class="tooltiptext">Postman</span></div>
+            <div class="tooltip"><span class="tooltiptext">Next.js</span></div>
+            <div class="tooltip"><span class="tooltiptext">Dart</span></div>
+            <div class="tooltip"><span class="tooltiptext">Flutter</span></div>
+            <div class="tooltip"><span class="tooltiptext">Laravel</span></div>
           </div>
         </div>
       </div>
@@ -117,7 +117,7 @@
         </div>
       </div>
 
-      <div class="carousel-cell">
+      <!-- <div class="carousel-cell">
         <div class="carousel-content">
           <div>
             <h3 class="h1">Blend.io</h3>
@@ -130,7 +130,7 @@
             </a>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="carousel-cell">
         <div class="carousel-content">
@@ -153,7 +153,7 @@
             <span class="new badge green right" data-badge-caption="ON GOING"></span>
             <h3 class="h1">CPAR</h3>
             <p class="lighter text-darken-3">
-              &mdash; a website and enrollment page for </br>a local CPA review center: coded in </br> HTML, CSS, Sass, and vanilla JS.
+              &mdash; an enrollment page for a local <br> CPA review center: coded in HTML, <br> CSS, Sass,& vanilla JS. It also has<br> PayPal integration.
             </p>
             <a href="http://cpar.com.ph" target='_blank' class="btn waves-effect waves-light white-text bg-black lighter">
               <i class="large material-icons right">open_in_new</i>
@@ -247,25 +247,9 @@
   </div>
 
   <!--SCRIPTS-->
-  <script src="assets/js/script.js"></script>
-  <script src="assets/js/materialize.js"></script>
-  <script src="assets/js/init.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js"></script>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-  <script>
-    var elem = document.querySelector('.main-carousel');
-    var flkty = new Flickity(elem, {
-      // options
-      cellAlign: 'left',
-      contain: true,
-      // wrapAround: true,
-      dragThreshold: 10,
-      freeScroll: true,
-      freeScrollFriction: 0.03
-    });
-
-    var flkty = new Flickity('.main-carousel', {
-    });
-  </script>
+  <script src="assets/js/script.js"></script>
 </body>
 
 </html>
